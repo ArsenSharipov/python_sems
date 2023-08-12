@@ -1,7 +1,7 @@
 def rhythm(phrase):
     count = 0
     for i in range(len(phrase)):
-        if phrase[i] == 'а':
+        if phrase[i] == 'аеёиоуыэюя':
             count+=1
     return count
 res = list()
